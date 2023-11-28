@@ -1,0 +1,34 @@
+body{
+    height: 630px;
+    background-image: linear-gradient(#A0E5FF, #0B57D0);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartao{
+    background-color: white;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#A0E5FF, #0B57D0);
+    width: 420px;
+    height: 270px;
+    border: solid black 1px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cabeca{
+display: flex;
+justify-content: space-between;
+}
+.sub{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
